@@ -3,6 +3,8 @@
 // The slice() method returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included). The original array will not be modified.
 
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(arr.slice(2)); // [3, 4, 5]
+console.log(arr.slice(-2)); // [3, 4, 5]
 console.log(arr.slice(2, 5));
 console.log(arr.slice(-3, 8));
 
